@@ -3,5 +3,5 @@
 This is a port of rovo89's, abforce's and PurifyOS' Xposed framework to work systemless-ly through Magisk
 
 ## Changelog
-#### v170827 (Systemless by topjohnwu and DodoGTA)
+#### v170828 (Systemless by topjohnwu and DodoGTA)
 - Initial Magisk release (It uses binaries from July 26th 2017 PurifyOS Xposed build)
