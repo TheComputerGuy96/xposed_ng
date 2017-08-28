@@ -1,0 +1,136 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: 4PaaOa3tsWojcRAR82IgIkooAvA=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest-Manifest: yTUwRzWVObyGjYKY3MhWvBUtrNI=
+
+Name: arm64/system/lib64/libsigchain.so
+SHA1-Digest-Manifest: gwHaXutI5ZwuGVefV4mXke9p8Sc=
+
+Name: arm/system/xposed.prop
+SHA1-Digest-Manifest: z8gwJ7fFDDtCHIyzADLtRjqbKN8=
+
+Name: arm64/system/lib/libart.so
+SHA1-Digest-Manifest: oEokY0SN7S8Wlyq1cL2IYpf/ngo=
+
+Name: x86/system/lib/libxposed_art.so
+SHA1-Digest-Manifest: 1CklTEE0NVE/C415KzuIkJXng7U=
+
+Name: arm64/system/lib/libsigchain.so
+SHA1-Digest-Manifest: Doed7Q6sC5QGwEsEzDLNRmh6odI=
+
+Name: common/file_contexts_image
+SHA1-Digest-Manifest: d0Z/GcKeayRQbW+lqq5Fe4Ncjps=
+
+Name: module.prop
+SHA1-Digest-Manifest: bSicuB4LnPsyQOTPb/Y4/ewXdaw=
+
+Name: arm/system/lib/libsigchain.so
+SHA1-Digest-Manifest: j4Nan5Xc6PtRWMmzDzR++k/yuTk=
+
+Name: arm/system/lib/libxposed_art.so
+SHA1-Digest-Manifest: d8LRW9aweHW6+vooBFgPCkgXvIo=
+
+Name: arm/system/bin/dex2oat
+SHA1-Digest-Manifest: PW77Jd4h8j9igoEtqN0wozdVC28=
+
+Name: common/helper.sh
+SHA1-Digest-Manifest: PTynLXcr95BKlIDdvb5VoGmgrik=
+
+Name: arm64/system/lib64/libxposed_art.so
+SHA1-Digest-Manifest: tCqhXW7QDzrfs/oCRlPBADvwfps=
+
+Name: common/XposedBridge.jar
+SHA1-Digest-Manifest: 315/wLN06fF+6d3Aj+mispDJ6TM=
+
+Name: arm64/system/lib/libart-compiler.so
+SHA1-Digest-Manifest: vmaCR3/0eE7G4Y/e02AgHJgeEMo=
+
+Name: arm64/system/bin/dex2oat
+SHA1-Digest-Manifest: d1/XPhxEmLl8m/0yWDOmNM6BXU8=
+
+Name: x86/system/lib/libsigchain.so
+SHA1-Digest-Manifest: CicerYNCWt9L/+69HCA7qGSopDc=
+
+Name: README.md
+SHA1-Digest-Manifest: e++iaZ9hw10h74dvFkioW6+XHNY=
+
+Name: x86/system/lib/libart-compiler.so
+SHA1-Digest-Manifest: QXnvQ+cDdbZxXeycoXJ0TwD0eAc=
+
+Name: arm64/system/lib/libxposed_art.so
+SHA1-Digest-Manifest: Eg86bs8z9pjABZ4KYmpxk2BHErg=
+
+Name: common/post-fs-data.sh
+SHA1-Digest-Manifest: ioYMDRrwyEpkn5g5N7lFy798KTU=
+
+Name: x86/system/bin/oatdump
+SHA1-Digest-Manifest: HMqhrpIS2xy80vuhzr3nexjqEso=
+
+Name: arm64/system/bin/oatdump
+SHA1-Digest-Manifest: rbmbcJx8J9HuLhcXSMuFvee74lg=
+
+Name: arm/system/bin/oatdump
+SHA1-Digest-Manifest: l2fcKuWT/Jg+ZWJJyUp5gQWzl8g=
+
+Name: x86/system/bin/patchoat
+SHA1-Digest-Manifest: eenKfSenW4NISs4VzgbtOnbxN74=
+
+Name: x86/system/lib/libart.so
+SHA1-Digest-Manifest: jSPSCdp8tDIzsMafzwmMlihpyTE=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest-Manifest: pVUJ9D5th6d2sD8aeNp5zhiBUcs=
+
+Name: arm64/system/xposed.prop
+SHA1-Digest-Manifest: NDejThFirpmxxidseBanXWf5bW4=
+
+Name: arm64/system/lib64/libart.so
+SHA1-Digest-Manifest: g2B/wxcKYCap0+w+KGL1WkGLGcM=
+
+Name: x86/system/bin/app_process32
+SHA1-Digest-Manifest: +qd5Zbq8BP8C1jm7R3oAo/fBtZo=
+
+Name: arm64/system/bin/app_process32
+SHA1-Digest-Manifest: EzGyFHqXrHgkAmlO10r5XJtX96k=
+
+Name: x86/system/xposed.prop
+SHA1-Digest-Manifest: fJsKmErwkEHyfKZcGzu6+QIuMCk=
+
+Name: arm/system/bin/app_process32
+SHA1-Digest-Manifest: biAJkGEpYVAfUV2Ct5n2OUs3ees=
+
+Name: x86/system/lib/libart-disassembler.so
+SHA1-Digest-Manifest: 8sWn/0U6DSBajFLW2fKqDTl8+EQ=
+
+Name: arm/system/lib/libart-compiler.so
+SHA1-Digest-Manifest: MD+L6C8b26GLaN8YLirizipOcQ8=
+
+Name: arm64/system/lib64/libart-disassembler.so
+SHA1-Digest-Manifest: bbbVT6XEcaQg4FkI5UZa6tY5fWE=
+
+Name: arm/system/lib/libart-disassembler.so
+SHA1-Digest-Manifest: PrYFbxPtqC0B/53k3FzQY9SsAvc=
+
+Name: arm64/system/bin/patchoat
+SHA1-Digest-Manifest: YeDO5QsLQXW83dN493nKVqNev9I=
+
+Name: arm/system/lib/libart.so
+SHA1-Digest-Manifest: 5glkhWC4BlNktlH1rOFBhKr9OUk=
+
+Name: x86/system/bin/dex2oat
+SHA1-Digest-Manifest: I7XFoNG+32y1L1noINtXyk6g23k=
+
+Name: arm64/system/bin/app_process64
+SHA1-Digest-Manifest: XPuwzCPHARbODpDd+EVEIoIMM74=
+
+Name: config.sh
+SHA1-Digest-Manifest: 1unHyUlXgOSG57R/cxJUIYTU7RI=
+
+Name: arm/system/bin/patchoat
+SHA1-Digest-Manifest: KBah/fDT8qEI2o1Jz8j+9prRhck=
+
+Name: common/helper.prop
+SHA1-Digest-Manifest: AOL15avdxYtdOqL3o857pdEz+FQ=
+

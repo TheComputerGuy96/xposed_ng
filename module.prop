@@ -1,0 +1,7 @@
+id=xposed_25
+name=Xposed Framework (SDK 25)
+version=v170828 (Systemless by topjohnwu and DodoGTA)
+versionCode=170828
+author=rovo89, abforce, the PurifyOS team, topjohnwu and DodoGTA
+description=Xposed Framework by rovo89, abforce and the PurifyOS team, ported to Magisk by topjohnwu and DodoGTA
+template=3
