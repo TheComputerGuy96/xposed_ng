@@ -31,11 +31,6 @@ bind_mount() {
   fi
 }
 
-find $MODDIR/system -type f 2>/dev/null | while read f; do
-  TARGET=${f#$MODDIR}
-  bind_mount $f $TARGET
-done
-
 find $MODDIR/system/bin -type f 2>/dev/null | while read f; do
   TARGET=$MIRRDIR${f#$MODDIR}
   bind_mount $f $TARGET
