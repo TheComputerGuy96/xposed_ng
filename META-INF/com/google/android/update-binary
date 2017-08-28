@@ -50,16 +50,16 @@ require_new_magisk() {
 
 android_version() {
   case $1 in
-    15) echo '4.0 / SDK'$1;;
-    16) echo '4.1 / SDK'$1;;
-    17) echo '4.2 / SDK'$1;;
-    18) echo '4.3 / SDK'$1;;
-    19) echo '4.4 / SDK'$1;;
-    21) echo '5.0 / SDK'$1;;
-    22) echo '5.1 / SDK'$1;;
-    23) echo '6.0 / SDK'$1;;
+    15) echo '4.0.x / SDK'$1;;
+    16) echo '4.1.x / SDK'$1;;
+    17) echo '4.2.x / SDK'$1;;
+    18) echo '4.3.x / SDK'$1;;
+    19) echo '4.4.x / SDK'$1;;
+    21) echo '5.0.x / SDK'$1;;
+    22) echo '5.1.x / SDK'$1;;
+    23) echo '6.0.x / SDK'$1;;
     24) echo '7.0 / SDK'$1;;
-    25) echo '7.1 / SDK'$1;;
+    25) echo '7.1.x / SDK'$1;;
     *)  echo 'SDK'$1;;
   esac
 }
@@ -142,9 +142,9 @@ ui_print "- Mounting $IMG to $MOUNTPATH"
 MAGISKLOOP=`$MAGISKBIN/magisk --mountimg $IMG $MOUNTPATH`
 is_mounted $MOUNTPATH || abort "! $IMG mount failed..."
 
-XVERSION=$(grep_prop version $INSTALLER/$ARCH/system/xposed.prop)
-XMINSDK=$(grep_prop minsdk $INSTALLER/$ARCH/system/xposed.prop)
-XMAXSDK=$(grep_prop maxsdk $INSTALLER/$ARCH/system/xposed.prop)
+XVERSION=$(grep_prop version $INSTALLER/system/sdk$API/$ARCH/xposed.prop)
+XMINSDK=$(grep_prop minsdk $INSTALLER/system/sdk$API/$ARCH/xposed.prop)
+XMAXSDK=$(grep_prop maxsdk $INSTALLER/system/sdk$API/$ARCH/xposed.prop)
 APINAME=$(android_version $API)
 
 XEXPECTEDSDK=$(android_version $XMINSDK)
@@ -181,7 +181,7 @@ mkdir -p $MODPATH
 
 # Copy files
 ui_print "- Copying files"
-mv $INSTALLER/$ARCH/system $MODPATH/system
+mv $INSTALLER/system/sdk$API/$ARCH $MODPATH/system
 mkdir -p $MODPATH/system/framework
 mv $INSTALLER/common/XposedBridge.jar $MODPATH/system/framework/XposedBridge.jar
 
